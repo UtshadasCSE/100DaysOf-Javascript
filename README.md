@@ -1,4 +1,4 @@
-# 100DaysOf-Javascript
+# 50DaysOf-Javascript
 
 ![javascript-statements](https://github.com/UtshadasCSE/100DaysOf-Javascript/assets/75168319/d40fe06b-8311-4ac9-b23f-d78618f86f41)
 
