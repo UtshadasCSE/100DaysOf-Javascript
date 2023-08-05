@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script>
+      var h1 = document.createElement("h1");
+      h1 = "Hello utsha";
+      var con = document.querySelector("#container");
+      con.innerHTML = h1;
+    </script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let ul = document.createElement("ul");
+      let li1 = document.createElement("li");
+      let li2 = document.createElement("li");
+      li1.innerHTML = "Hello Bangladesh";
+      li2.innerHTML = "Hello India";
+      let content = document.querySelector("body");
+      content.appendChild(ul);
+      let selUlInBody = document.querySelector("ul");
+      selUlInBody.appendChild(li1);
+      selUlInBody.appendChild(li2);
+    </script>
+  </body>
+</html>
