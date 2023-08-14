@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+  </body>
+  <script>
+    let actors = [
+      { name: "srk", networth: 10000000 },
+      { name: "ranbir", networth: 10000000000 },
+      { name: "deepika", networth: 100000 },
+    ];
+    let richActor = actors.filter((actor) => actor.networth > 1000);
+    let result = actors.map((actor) => actor.name).join(", ");
+    document.querySelector("h1").innerHTML = `<h3>${result}</h3>`;
+  </script>
+</html>
